@@ -56,7 +56,7 @@ const Home: React.FC = () => {
          <img src={Cart} alt= "shopcart" width = "50px" height="auto" />
          <span>({cart.length}) - Itens</span>
        </div>
-       <div><button type="button" onClick={changePage}>Quero me cadastrar</button></div>
+       <div><button id="btCadastro" type="button" onClick={changePage}>Clique aqui para se cadastrar</button></div>
      </div>
      <section>
        { data.map( (prod, index) => (

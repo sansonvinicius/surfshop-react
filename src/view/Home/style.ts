@@ -19,7 +19,7 @@ export const Container = styled.div`
     section { 
         height: 100vh;
         width: 100%;
-        background: #e2e2;
+        // background: #e2e2;
         display: flex;
         justify-content: space-around;
 
@@ -32,5 +32,17 @@ export const Container = styled.div`
             padding: 12px;
         }
     }
+    
+    button{ 
+        background: #032f3c;
+        color: #fff;
+    }
+    #btCadastro{
+        height: 3.5rem;
+        width: 100%;
+        background: #E9BC33;
+        color: #fff;
+        border: none;
 
+    }
 `

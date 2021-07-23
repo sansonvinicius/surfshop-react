@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import{ Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 80%;
@@ -49,6 +50,20 @@ export const Button = styled.button`
     }
 
 `;
-
+export const LinkHome = styled(Link)`
+    margin-top: 5px;
+    background: #032f3c;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    height: 4px;
+	line-height: 4px;
+	white-space: nowrap;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+`;
 
 ;
