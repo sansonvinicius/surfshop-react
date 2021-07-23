@@ -3,7 +3,7 @@ import Cart from '../../assets/cart.jpeg'
 import { Container } from './style';
 import api from '../../services/api';
 import { useHistory }  from 'react-router-dom';
-import Clientes from '../Clientes/clientes';
+
 
 
 
