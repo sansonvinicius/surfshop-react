@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Cart from '../../assets/cart.jpeg'
 import { Container } from './style';
 import api from '../../services/api';
+import { useHistory }  from 'react-router-dom';
+import Clientes from '../../clientes';
+
+
 
 interface IProduct{
   id: number;
@@ -13,6 +17,7 @@ interface IProduct{
 
 
 const Home: React.FC = () => {
+  const history = useHistory();
   const[ data, setData ] = useState<IProduct[]>([]);
   const[ cart, setCart ] = useState<IProduct[]>([]);
 
@@ -22,6 +27,8 @@ const Home: React.FC = () => {
         setData(response.data)
       }
     )
+  
+  
   },[])
 
   const handleCart = (index: number) => {
@@ -30,6 +37,11 @@ const Home: React.FC = () => {
    const productStore = JSON.stringify(cart);
    localStorage.setItem('@cart',productStore)
    
+  }
+
+  function changePage(){
+    
+    history.push('/clientes');
   }
 
 
@@ -44,6 +56,7 @@ const Home: React.FC = () => {
          <img src={Cart} alt= "shopcart" width = "50px" height="auto" />
          <span>({cart.length}) - Itens</span>
        </div>
+       <div><button type="button" onClick={changePage}>Quero me cadastrar</button></div>
      </div>
      <section>
        { data.map( (prod, index) => (
