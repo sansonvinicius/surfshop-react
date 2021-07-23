@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import * as S from './style';
-import { useHistory }  from 'react-router-dom';
-import axios from 'axios';
+
 
 export default class ContactFormComponent extends Component {
 
