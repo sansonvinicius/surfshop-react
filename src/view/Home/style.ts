@@ -36,6 +36,7 @@ export const Container = styled.div`
     button{ 
         background: #032f3c;
         color: #fff;
+        border-radius: .25rem;
     }
     #btCadastro{
         height: 3.5rem;

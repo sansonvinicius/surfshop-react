@@ -19,14 +19,14 @@
             "photo": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/SSStandardLongBoth_2000x.jpg?v=1615049942",
             "name": "Prancha 3",
             "description": "Descrição do produto ",
-            "price": 1600
+            "price": 1800
         },
         {
             "id": 4,
             "photo": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/SSStandardLongBoth_2000x.jpg?v=1615049942",
             "name": "Prancha 4",
             "description": "Descrição do produto ",
-            "price": 1600
+            "price": 2200
         }
        
     ]
