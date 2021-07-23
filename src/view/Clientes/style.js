@@ -35,9 +35,10 @@ export const Input = styled.input`
         outline: none;
         box-shadow: none;
     }
-`;
-export const Button = styled.button`
-    height: 1.5rem;
+
+ `;
+ export const Button = styled.button`
+    margin-top: 10px;
     border: 1px solid #000;
     background: #032f3c;
     color: #fff;
@@ -49,7 +50,7 @@ export const Button = styled.button`
         box-shadow: none;
     }
 
-`;
+`;   
 export const LinkHome = styled(Link)`
     margin-top: 5px;
     background: #032f3c;
