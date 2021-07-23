@@ -79,7 +79,9 @@ render(){
                     </div>
                     <div>
                         <S.Button type="submit" className="btn btn-primary btn-block">Cadastrar</S.Button>
-                        <S.LinkHome to="/">Voltar para loja</S.LinkHome>
+                    </div>
+                    <div>
+                      <S.LinkHome to="/">Voltar para loja</S.LinkHome>
                     </div>
                 </form>
               </div>

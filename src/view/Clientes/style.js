@@ -38,6 +38,7 @@ export const Input = styled.input`
 
  `;
  export const Button = styled.button`
+    width: 250px;
     margin-top: 10px;
     border: 1px solid #000;
     background: #032f3c;
@@ -62,9 +63,10 @@ export const LinkHome = styled(Link)`
 	line-height: 4px;
 	white-space: nowrap;
     background-color: red;
-    padding: 10px;
+    padding: 16px;
     text-decoration: none;
     font-size: 14px;
+    border-radius: .25rem;
 `;
 
 ;
