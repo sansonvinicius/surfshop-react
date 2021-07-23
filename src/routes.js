@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter} from 'react-router-dom';
-import Clientes from './clientes';
+import Clientes from './view/Clientes/clientes';
 import Home from '../src/view/Home';
 
 export default function Routes(){
